@@ -11,7 +11,7 @@
             height: ;
         } */
         .container {
-            padding: 0.3rem 1rem;
+            padding: 0.3rem 0.8rem;
         }
         .amount--container {
             grid-template-columns: auto;
@@ -31,7 +31,7 @@
         }
         #main--dashboard {
             margin-left: 0;
-            padding: 0.8rem 1rem;
+            padding: 0.8rem 0.8rem;
         }
         .app--header {
             margin-left: 0;
@@ -51,6 +51,14 @@
         }
         #app-top {
             display: none;
+        }
+        .add-employee-content {
+            width: 80%;
+        }
+        .sign-in-options .options {
+            display: grid;
+            grid-template-columns: auto;
+            gap: var(--spacer);
         }
     }
     
