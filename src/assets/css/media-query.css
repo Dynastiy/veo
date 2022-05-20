@@ -1,0 +1,56 @@
+    @media (max-width: 990px) {
+        .prices {
+            grid-template-columns: auto;
+            gap: var(--spacer);
+            margin-top: 50px;
+        }
+        .top {
+            grid-template-columns: auto;
+        }
+        /* .hero--section {
+            height: ;
+        } */
+        .container {
+            padding: 0.3rem 1rem;
+        }
+        .amount--container {
+            grid-template-columns: auto;
+        }
+        .main--btn {
+            padding: 0.5rem 0.9rem;
+        }
+        .login--box {
+            width: 90%;
+        }
+        .main--app--drawer {
+            left: -1000px;
+            z-index: 999;
+        }
+        .main--app--drawer.active {
+            left: 0;
+        }
+        #main--dashboard {
+            margin-left: 0;
+            padding: 0.8rem 1rem;
+        }
+        .app--header {
+            margin-left: 0;
+        }
+        #dashboard--header {
+            margin-left: 0;
+            padding: 0.8rem 1rem;
+        }
+        .menu--open {
+            display: block;
+        }
+        .menu--close {
+            display: block;
+        }
+        #mobile {
+          display: block;
+        }
+        #app-top {
+            display: none;
+        }
+    }
+    

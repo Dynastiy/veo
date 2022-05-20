@@ -3,10 +3,36 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+
+import '@/assets/css/main.css'
+import '@/assets/css/media-query.css'
+
+import instance from '@/plugins/axios.js'
+
+import "toastify-js/src/toastify.css"
+import toastify from 'toastify-js'
+
+import { Icon } from '@iconify/vue2';
+
+Vue.component("IconComponent", Icon)
+
+
+Vue.config.ignoredElements = [/^Icon-/]
+// import VueClipboard from 'vue-clipboard2'
+
+// Vue.use(VueClipboard)
+
+Vue.prototype.$axios = instance
+Vue.prototype.$toastify = toastify
+    // Vue.use(http)
+
+Vue.config.ignoredElements = [/^ion-/]
+
 Vue.config.productionTip = false
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+    router,
+    store,
+    toastify,
+    render: h => h(App)
 }).$mount('#app')

@@ -1,0 +1,62 @@
+.sign-in-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.sign-in-options .options {
+    display: flex;
+    gap: var(--spacer);
+}
+
+.sign-in-options .choose--option {
+    padding: 2rem;
+    border: 1.3px solid var(--main-color);
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+.sign-in-options .choose--option:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.user--login {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login--box {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.125);
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 30%;
+}
+
+.login--box input {
+    width: 100%;
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #000;
+    outline: none;
+    /* margin-bottom: 15px; */
+}
+.login--box input:focus {
+    border: none;
+    outline: 1px solid var(--main-color);
+}
+
+.login--box label {
+    font-size: 0.8rem;
+}
+
+.login--box a {
+    font-size: 0.8rem;
+    color: var(--main-color) !important;
+}

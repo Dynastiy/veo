@@ -1,0 +1,236 @@
+.app--header {
+    margin-left:  252px;
+    padding: 2rem;
+}
+
+/* Dashboard App Drawer  */
+
+#main--dashboard {
+  margin-left: 252px;
+  padding: 2rem;
+}
+
+#myDropdown{
+    display: none;
+    
+  }
+  
+  #myDropdown.active {
+    display: block;
+  }
+
+  .sub-menu {
+    background: var(--main-color) !important;
+  }
+  .sub-menu a {
+      color: #fff !important;
+      display: block;
+  }
+  .sub-menu a:hover {
+    background-color: #fff;
+  }
+  .app--header .icon {
+    font-size: 20px;
+    color: var(--main-color);
+  }
+.dashboard .icon {
+  font-size: 35px;
+} 
+
+.view-more-section {
+  background-color: #c4c4c470;
+  text-align: center;
+}
+.view-more-section button{
+  width: 40%;
+  padding: 0.3rem;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #000;
+  background-color: #fff;
+}
+.top--left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  
+}
+.card-1 h2, .card-1 h6, .card-1 .icon{
+  color: #fff;
+}
+.card-1 {
+  border-radius: 10px;
+}
+.card-1 div {
+  padding: 0.6rem;
+  border-radius: 10px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  align-items: center;
+  gap:30px
+}
+.table--search {
+  display: flex;
+  align-items: center;
+  gap:5px;
+  background-color: #fff;
+  padding-left: 0.5rem;
+  border-radius: 5px;
+  width: 80%;
+}
+.table--search input {
+  border: none;
+  display: block;
+  background-color: transparent;
+  padding: 0.5rem;
+  width: 100%;
+  outline: none;
+}
+.main--button {
+  background-color: var(--main-color);
+  padding: 0.4rem 1.6rem;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+.main--app--drawer .sub-menu a:hover {
+  color: var(--main-color) !important;
+  background-color: #fff;
+}
+.enrollee--container .enrollee--top {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 20px;
+}
+.left--enrollee {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.left--enrollee .content {
+  background-color: var(--main-color);
+  padding: 1rem;
+  border-radius: 10px;
+}
+.left--enrollee .content input {
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  outline: none;
+}
+.left--enrollee .content button {
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+}
+.left--enrollee .content h5 {
+  color: #fff;
+}
+.right--enrollee {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.right--enrollee .content {
+  background-color: var(--main-color);
+}
+.visit--container .enrollee--top  {
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr ;
+  gap:20px;
+  margin-bottom: 20px;
+}
+.bottom--visit {
+  background-color: #fff;
+  border: 10px;
+  border-radius: 0 0 10px 10px;
+  padding: 1rem
+}
+.bottom--visit form label {
+  display: block;
+  margin-bottom: 0.4rem !important;
+}
+.bottom--visit form input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--gray-400);
+  outline: none;
+}
+.bottom--visit form select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--gray-400);
+  outline: none;
+}
+.bottom--visit textarea {
+  width: 100%;
+}
+
+/* Add Employee Modal  */
+.add-employee-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-employee-content {
+  background-color: #fff;
+  width: 25%;
+}
+.add-employee-content form input, .add-employee-content form select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--gray-400);
+  outline: none;
+}
+.menu--item {
+  background-color: rgba(0, 0, 0, 0.99);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: -5000px;
+  height: 100vh;
+  overflow-x: scroll;
+
+}
+#mobile .sidebar ul a {
+  /* display: block; */
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+}
+#mobile .sidebar ul a:hover {
+  color: var(--main-color);
+}
+.menu--item.active {
+  left: 0;
+}
+#mobile {
+  display: none;
+}
