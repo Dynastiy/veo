@@ -4,7 +4,7 @@
             <div class="dashboard">
                 <div class="top">
                     <div class="top--left">
-                        <div style="background: #2A9871" class="card-1">
+                        <div style="background: #2A9871" class="card-1 d-flex flex-column justify-content-between">
                             <div class="d-flex align-items-end justify-content-between" >
                                 <div>
                                     <h2>273</h2>
@@ -18,7 +18,7 @@
                                 <button>View</button>
                             </div>
                         </div>
-                        <div style="background: #E22B1F" class="card-1" >
+                        <div style="background: #E22B1F" class="card-1 d-flex flex-column justify-content-between"  >
                             <div class="d-flex align-items-end justify-content-between">
                                 <div>
                                     <h2>520, 300</h2>
@@ -32,7 +32,7 @@
                                 <button>View</button>
                             </div>
                         </div>
-                        <div style="background: #1F4AE2" class="card-1" >
+                        <div style="background: #1F4AE2" class="card-1 d-flex flex-column justify-content-between" >
                             <div class="d-flex align-items-end justify-content-between">
                                 <div>
                                     <h2>74</h2>
@@ -46,7 +46,7 @@
                                 <button>View</button>
                             </div>
                         </div>
-                        <div style="background: #DAA00C" class="card-1" > 
+                        <div style="background: #DAA00C" class="card-1 d-flex flex-column justify-content-between" > 
                             <div class="d-flex align-items-end justify-content-between">
                                 <div>
                                     <h2>273, 999, 000</h2>
@@ -70,7 +70,7 @@
 
                 <!-- Top that contains a Search Filter -->
                 <div class="table--top">
-                    <div class="d-flex align-items-center justify-content-between mt-4">
+                    <div class="d-lg-flex align-items-center justify-content-between mt-4">
                        <div class="d-flex align-items-center" style="gap:15px">
                             <IconComponent icon="bx:filter" class="icon" style="color:var(--main-color)"/>
                             <div class="table--search">

@@ -23,12 +23,13 @@ body.active {
     left: 0;
     z-index: 999;
     height: 100vh;
-    /* overflow-y: scroll; */
+    overflow-y: auto;
 }
 
 .top--image {
     padding: 2rem 0;
 }
+
 
 /* .main--app--drawer .menu--header {
     color: var(--main-color);
@@ -40,12 +41,8 @@ body.active {
 
 .main--app--drawer a {
     color: var(--main-color);
-    display: block;
-    padding: 0.8rem 2rem;
-    /* margin-bottom: 15px; */
-    font-size: 1rem;
-    /* font-weight: 400; */
 }
+
 .main--app--drawer li {
     margin-bottom: 12px;
 }
@@ -54,16 +51,12 @@ body.active {
     font-size: 1.2rem;
     margin-right: 8px;
 }
-.main--app--drawer .router-link-exact-active {
-    background-color: var(--main-color);
-    color: #fff;
-    /* font-weight: bold; */
-}
 
-.main--app--drawer a:hover {
+
+/* .main--app--drawer .router-link-exact-active {
     background-color: var(--main-color);
     color: #fff;
-}
+} */
 
 
 /* Dashboard App Drawer  */
@@ -248,4 +241,29 @@ body.active {
     color: #ffb20f;
     padding: 0.2rem 0.5rem;
     border-radius: 3px;
+}
+
+.el-menu-item.is-active {
+    color: var(--main-color) !important;
+    background-color: var(--accent-color) !important;
+}
+
+.el-menu-item:hover {
+    background-color: var(--accent-color) !important;
+}
+
+.el-submenu.is-active .el-submenu__title {
+    border-bottom-color: var(--main-color) !important;
+}
+
+.el-submenu__title:hover {
+    background-color: var(--accent-color) !important;
+}
+
+.el-drawer {
+    width: 80% !important;
+}
+
+.el-menu {
+    border-right: none !important;
 }

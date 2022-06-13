@@ -7,11 +7,14 @@
         .top {
             grid-template-columns: auto;
         }
+        .top--left {
+            grid-template-columns: auto;
+        }
         /* .hero--section {
             height: ;
         } */
         .container {
-            padding: 0.3rem 0.8rem;
+            padding: 0.3rem 1.5rem;
         }
         .amount--container {
             grid-template-columns: auto;
@@ -31,7 +34,7 @@
         }
         #main--dashboard {
             margin-left: 0;
-            padding: 0.8rem 0.8rem;
+            padding: 0.8rem 1.3rem;
         }
         .app--header {
             margin-left: 0;
@@ -47,7 +50,7 @@
             display: block;
         }
         #mobile {
-          display: block;
+            display: block;
         }
         #app-top {
             display: none;
@@ -60,5 +63,22 @@
             grid-template-columns: auto;
             gap: var(--spacer);
         }
+        .el-menu-item,
+        .el-submenu__title {
+            padding-left: unset !important;
+        }
+        .el-menu-item span,
+        .el-submenu__title span {
+            margin-left: 0.8rem;
+        }
+        .el-submenu .el-menu-item {
+            padding-left: 30px !important;
+        }
+        .visit--container .enrollee--top {
+            grid-template-columns: auto;
+        }
+        .table--top .main--button {
+            display: block;
+            margin-top: 20px;
+        }
     }
-    
